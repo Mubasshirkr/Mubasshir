@@ -1,0 +1,604 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#rock1{
+    position:absolute;
+    left:-30px;
+    top: 10px;
+    width:40px;
+    height:30px;
+    transform:rotate(45deg);
+    animation:b 6s infinite;
+  }
+  #rock2{
+    position:absolute;
+    left:200px;
+    top:-25px;
+    width:40px;
+    height:40px;
+    transform:rotate(45deg);
+    animation:a 6s infinite;
+  }
+  #rock3{
+    position:absolute;
+    left:585px;
+    top:5px;
+    width:40px;
+    height:40px;
+    transform:rotate(45deg);
+    animation:a 6s infinite;
+  }
+  #rock4{
+    position:absolute;
+    left:385px;
+    top:90px;
+    width:40px;
+    height:40px;
+    transform:rotate(45deg);
+    animation:b 6s infinite;
+  }
+  #rock5{
+    position:absolute;
+    left:60px;
+    top:140px;
+    width:25px;
+    height:25px;
+    transform:rotate(45deg);
+    animation:a 6s infinite;
+  }
+  #rock6{
+    position:absolute;
+    left:500px;
+    top:-25px;
+    width:25px;
+    height:25px;
+    transform:rotate(45deg);
+    animation:a 6s infinite;
+  }
+  #rock7{
+    position:absolute;
+    left:60px;
+    top:-55px;
+    width:25px;
+    height:25px;
+    transform:rotate(45deg);
+    animation:b 6s infinite;
+  }
+  #rock8{
+    position:absolute;
+    left:530px;
+    top:130px;
+    width:25px;
+    height:25px;
+    transform:rotate(45deg);
+    animation:b 6s infinite;
+  }
+  @keyframes a{
+    0%{
+      background:transparent;
+    }
+    50%{
+      background:darkorange;
+    }
+    100%{
+      background:transparent;
+    }
+  }
+  @keyframes b{
+    0%{
+      background:darkorange;
+    }
+    50%{
+      background:transparent;
+    }
+    100%{
+      background:darkorange;
+    }
+  }
+  #div1{
+   display: block;
+    position:fixed;
+    left:20px;
+    top:0;
+    width:600px;
+    height:30px;
+    border:15px solid rgb(60, 60, 60);
+    border-radius:100px;
+   z-index: 9999; 
+  }
+  #diva1{
+    position:absolute;
+    width:600px;
+    height:40px;
+    border:5px solid orange;
+    border-radius:120px;
+    background:orange;
+    transition:.5s;
+    top:-10px ;
+    left: -5px;
+  }
+  #img1{
+    position:absolute;
+    left:25px;
+    top:3px;
+    width:30px;
+  }
+  #img2{
+    position:absolute;
+    left:25px;
+    top:0px;
+    width:30px;
+  }
+  #img3{
+    position:absolute;
+    left:25px;
+    top:0px;
+    width:30px;
+  }
+  #divaa1{
+    position:absolute;
+    left:150px;
+    width:80px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+  #divaa1:hover{
+    height:250px;
+  }
+  #divaa1:hover > #divaaa1{
+    height:180px;
+    border:5px solid orange;
+  }
+  #divaaa1{
+    position:absolute;
+    top:-5px;
+    left:75px;
+    width:40px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+  #divaa2{
+    position:absolute;
+    left:300px;
+    width:80px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+  #divaa2:hover{
+    height:200px;
+  }
+  #divaa2:hover > #divaaa2{
+    height:230px;
+  }
+  #divaaa2{
+    position:absolute;
+    top:-5px;
+    left:-25px;
+    width:25px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+ 
+
+  #divaa3{
+    position:absolute;
+    left:450px;
+    width:80px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+  #divaa3:hover{
+    height:260px;
+  }
+  #divaa3:hover > #divaaa3{
+    height:200px;
+  }
+  #divaa3:hover > #divaaa4{
+    height:140px;
+  }
+  #divaaa3{
+    position:absolute;
+    top:-5px;
+    left:-50px;
+    width:40px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+  #divaaa4{
+    position:absolute;
+    top:-5px;
+    left:75px;
+    width:25px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+  #btna1{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #divaa1:hover > #btna1{
+    top:90px;
+    color:black;
+    background:rgb(255, 104, 93);
+    padding-bottom:5px;
+  }
+  #btna2{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #divaa1:hover > #btna2{
+    top:140px;
+    color:black;
+    background:rgb(255, 104, 93);
+    padding-bottom:5px;
+  }
+  #btna3{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #divaa1:hover > #btna3{
+    top:190px;
+    color:black;
+    background:rgb(255, 104, 93);
+    padding-bottom:5px;
+  }
+  #btnb1{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #divaa2:hover > #btnb1{
+    top:90px;
+    color:black;
+    background:rgb(255, 104, 93);
+    padding-bottom:5px;
+  }
+  #btnb2{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #divaa2:hover > #btnb2{
+    top:140px;
+    color:black;
+    background:rgb(255, 104, 93);
+    padding-bottom:5px;
+  }
+  #btnb3{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #divaa2:hover > #btnb3{
+    top:140px;
+    color:black;
+    background:rgb(255, 104, 93);
+    padding-bottom:5px;
+  }
+  #btnb4{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #divaa2:hover > #btnb4{
+    top:140px;
+    color:black;
+    background:rgb(255, 104, 93);
+    padding-bottom:5px;
+  }
+  #btnb5{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #divaa2:hover > #btnb5{
+    top:140px;
+    color:black;
+    background:rgb(255, 104, 93);
+    padding-bottom:5px;
+  }
+  #btnb6{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #divaa2:hover > #btnb6{
+    top:140px;
+    color:black;
+    background:rgb(255, 104, 93);
+    padding-bottom:5px;
+  }
+  #btnc1{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #divaa3:hover > #btnc1{
+    top:90px;
+    color:black;
+    background:rgb(255, 104, 93);
+    padding-bottom:5px;
+  }
+  #btnc2{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #divaa3:hover > #btnc2{
+    top:140px;
+    color:black;
+    background:rgb(255, 104, 93);
+    padding-bottom:5px;
+  }
+  #btnc3{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #divaa3:hover > #btnc3{
+    top:190px;
+    color:black;
+    background:rgb(255, 104, 93);
+    padding-bottom:5px;
+  }
+/* _____________________________________Contact__________________________________________- */
+body{
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #cccccc;
+  background-image: linear-gradient(rgb(53, 52, 51), rgb(66, 66, 63), rgb(114, 114, 114));
+}
+#contact{
+  border: 5px outset rgb(209, 209, 209);
+  position: relative;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  padding: 20px;
+  background-image: linear-gradient(rgba(255, 166, 0, 0.938), rgb(224, 126, 34), rgba(255, 166, 0, 0.959));
+  top: 100px;
+  
+}
+
+#phone{
+  top: 0px;
+  left: 50px;
+  content: "\290E";
+  color: rgb(173, 0, 0);
+  font-size: 35px;
+}
+
+#mail{
+  top: 10px;
+  left: 50px;
+  content: "\290E";
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+}
+#instagram{
+  top: 10px;
+  left: 3px;
+  content: "\290E";
+  color: rgb(255, 184, 184);
+  font-size: 35px; 
+  position: relative;
+}
+#twitter{
+  top: 10px;
+  left: 3px;
+  content: "\290E";
+  color: blue;
+  font-size: 37px; 
+  position: relative;
+}
+#linkedln{
+  top: 10px;
+  left: 3px;
+  content: "\290E";
+  color: blue;
+  font-size: 37px; 
+  position: relative;
+}
+.black{
+  color: black;
+}
+.names{
+  font-size: 30px;
+  color: black;
+  font-family:"Courier New", Courier, monospace;
+}
+/* ___________________________________________About_________________________________________________ */
+.f1a {
+  margin: 0 auto;
+  display:flex;
+  max-width: 600px;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-bottom:10px ;
+
+}
+.heading{
+  text-align: center;
+  margin-top: 100px;
+}
+.f1a div{
+  text-align: center;
+  background-color: rgb(255, 166, 0)   ;
+  width: 100px;
+  height: 25px;
+padding: 5px;
+width: 150px;
+height: 70px;
+margin: 10px;
+line-height: 70px;
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+}
+/* __________________________________Front Box________________________________ */
+.box{
+  top: 50px;
+  text-align: center;
+  left: 750px;
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  border:5px solid orange;
+  padding: auto;
+  box-shadow: 10px 10px 5px rgb(44, 43, 43);
+  background-color: orange;
+  padding-top:  30px;
+}
+.my{
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
